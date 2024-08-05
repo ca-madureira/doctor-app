@@ -1,5 +1,5 @@
 'use client';
-import { Button } from '../ui/button';
+import { Button } from './ui/button';
 import { Plus } from 'lucide-react';
 export default function FixedBookButton() {
   return (

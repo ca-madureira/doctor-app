@@ -1,5 +1,8 @@
 import Image from 'next/image';
-import DoctorDetails from '@/components/Frontend/DoctorDetails';
+import DoctorDetails from '@/components/DoctorDetails';
+import { Button } from '@/components/ui/button';
+import { Plus } from 'lucide-react';
+import FixedBookButton from '@/components/FixedBookButton';
 
 export default function page() {
   return (
@@ -33,6 +36,8 @@ export default function page() {
           <DoctorDetails />
         </div>
       </div>
+
+      <FixedBookButton />
     </div>
   );
 }

@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Availability from './Availability';
 export default function DoctorDetails() {
   const [isActive, setIsActive] = useState('availability');
   return (
@@ -27,7 +28,7 @@ export default function DoctorDetails() {
       </div>
       <div className="py-8 px-6">
         {isActive === 'availability' ? (
-          <div>Service Details Component</div>
+          <Availability />
         ) : (
           <div>Availability Details Component</div>
         )}

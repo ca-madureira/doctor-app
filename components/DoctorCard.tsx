@@ -56,7 +56,7 @@ export default function DoctorCard({
         <h3 className="flex gap-4 justify-between items-center">
           <span>Tue, Mar 12</span> <span>$132</span>
         </h3>
-        <div className="py-3 grid grid-cols-3 gap-4">
+        <div className="py-3 grid grid-cols-3 gap-2">
           {timeStamps.map((item, i) => {
             return (
               <Link
